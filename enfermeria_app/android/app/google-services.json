@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "660550132391",
+    "project_id": "appenfermeria-d612d",
+    "storage_bucket": "appenfermeria-d612d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660550132391:android:2985337ece5c163adef182",
+        "android_client_info": {
+          "package_name": "com.example.enfermeria_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660550132391-eibfoh47t1mq25ggolksn4bnodo0o0ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpDYqmFc5zq_2eSHbp4vSaOLN2Ej38r_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660550132391-eibfoh47t1mq25ggolksn4bnodo0o0ei.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "660550132391-b5q56fapslc2p5kbg417ka1cghi886g8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.enfermeriaApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
