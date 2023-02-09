@@ -1,3 +1,5 @@
+import 'package:enfermeria_app/presentation/pages/necesidades.dart';
+import 'package:enfermeria_app/presentation/pages/registro.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -133,8 +135,10 @@ class _LoginState extends State<Login> {
                             elevation: 5,
                             shadowColor: Colors.black),
                         onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Login()));
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Necesidades()));
                         },
                       ),
                     ),
@@ -151,8 +155,10 @@ class _LoginState extends State<Login> {
                             elevation: 5,
                             shadowColor: Colors.black),
                         onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Login()));
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Registro()));
                         },
                       ),
                     ),
