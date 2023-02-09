@@ -1,3 +1,4 @@
+import 'package:enfermeria_app/presentation/pages/necesidades.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -223,7 +224,10 @@ class _RegistroState extends State<Registro> {
                     onPrimary: Colors.white,
                     elevation: 5,
                     shadowColor: Colors.black),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Necesidades()));
+                },
               ),
             ),
           ),
